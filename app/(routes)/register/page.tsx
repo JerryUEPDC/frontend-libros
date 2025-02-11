@@ -59,7 +59,6 @@ const RegisterForm = () => {
       console.error("Error en el registro:", error);
       toast({
         title: "Error",
-        description: error.message,
         variant: "destructive",
       });
     } finally {

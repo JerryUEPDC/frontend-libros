@@ -61,7 +61,6 @@ const LoginForm = () => {
       console.error("Error en el inicio de sesión:", error);
       toast({
         title: "Error",
-        description: error.message,
         variant: "destructive",
       });
     } finally {
