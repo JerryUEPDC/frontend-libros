@@ -57,8 +57,8 @@ export default function Page() {
 
             toast({
                 title: "Reserva realizada",
-                description: "La reserva se ha realizado con éxito.",
-                variant: "success", // Notificación de éxito
+                description: "La reserva se ha realizado con éxito."
+                 // Notificación de éxito
             });
 
             removeAll();
